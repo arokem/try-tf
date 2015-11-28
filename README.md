@@ -19,7 +19,7 @@ The data:
 The training data set looks like this.
 
 ![](simdata/linear_data_train.jpg)
-  
+
 Softmax regression is perfectly capable of handling this data. If you run the command below, you should see output similar to that provided here.
 
 ```
@@ -68,7 +68,7 @@ Accuracy: 0.861
 $ python hidden.py --train simdata/moon_data_train.csv --test simdata/moon_data_eval.csv --num_epochs 100 --num_hidden 5
 Accuracy: 0.971
 ```  
-  
+
 ### Saturn data
 
 The data:
@@ -89,11 +89,11 @@ Accuracy: 0.43
 $ python hidden.py --train simdata/saturn_data_train.csv --test simdata/saturn_data_eval.csv --num_epochs 100 --num_hidden 15
 Accuracy: 1.0
 ```
-  
+
 ## Generating simulated data.
-  
+
 Feel free to play around with the code to generate data to make it harder, add more dimensions, etc. You can then generate new data as follows (while in the simdata directory):
-  
+
 ```
 $ Rscript generate_linear_data.R
 $ python  generate_moon_data.R
@@ -107,7 +107,7 @@ The R scripts generate both train and test sets. For the moon data, you'll need 
 To prepare the blog post for this repository, I created a few R scripts to plot data. They are simple, but I figured I'd include them in case they are useful starting points for others for changing things or plotting related data.
 
 Go into the `simdata` directory.
-  
+
 Open `plot_data.R` in an editor and uncomment the data set you'd like to plot, save it, and then run:
 
 ```
@@ -117,4 +117,3 @@ $ Rscript plot_data.R
 For plotting the image with the hyperplane, start up R and then provide the command `source("plot_hyperplane.R")` to R.
 
 For plotting the graph relating the number of hidden nodes to accuracy, start up R and then provide the command `source("plot_hidden_curve.R")` to R.
-
