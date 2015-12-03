@@ -5,4 +5,6 @@ Example code to try out [TensorFlow](http://www.tensorflow.org/). See the blog p
 
 You need to have [TensorFlow installed](http://www.tensorflow.org/get_started/os_setup.md).
 
-Alternatively, try it out without installation here: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/arokem/try-tf)
+Alternatively, try it out without installation here:
+
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/arokem/try-tf)
